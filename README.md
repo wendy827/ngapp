@@ -6,3 +6,6 @@
 其他模块：Angular-animate,Angular-cookies,angular-ui-router,angular-validation
 
 ![image](https://github.com/wendy827/ngapp/raw/master/proPicture/1.png)
+![image](https://github.com/wendy827/ngapp/raw/master/proPicture/3.png)
+![image](https://github.com/wendy827/ngapp/raw/master/proPicture/4.png)
+![image](https://github.com/wendy827/ngapp/raw/master/proPicture/6.png)
