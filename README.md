@@ -4,3 +4,5 @@
 技术语言：html、javascript、less
 框架：AngularJS 1.6.4
 其他模块：Angular-animate,Angular-cookies,angular-ui-router,angular-validation
+
+![image](https://github.com/wendy827/ngapp/raw/master/proPicture/1.png)
