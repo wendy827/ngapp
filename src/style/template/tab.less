@@ -1,0 +1,21 @@
+.tab{
+  background-color: #f7f7f7;
+  position: fixed;
+  left:0;
+  right: 0;
+  top:0;
+  .mt(40);
+  z-index: 30;
+  display: flex;
+  li{
+    flex: 1;
+    list-style: none;
+    .h(40);
+    .lh(40);
+    text-align: center;
+    border-bottom: 2px solid @bodyBgColor;
+    &.active{
+      border-bottom: 2px solid @anotherHeadBarBgColor;
+    }
+  }
+}

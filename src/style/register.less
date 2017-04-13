@@ -1,0 +1,119 @@
+.register{
+  background-image: url("../image/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  form{
+    .mt(55);
+    .form-line{
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: content-box;
+      font-size: 0;
+      .w(300);
+      .h(40);
+      .lh(40);
+      &:first-child{
+        border-bottom: 1px solid @defaultColor;
+      }
+      .account{
+        background-image: url("../image/account.png");
+        background-repeat: no-repeat;
+        background-position: 15px 8px;
+        height: 100%;
+        .w(55);
+        background-color: rgba(0,0,0,.4);
+      }
+      .lock{
+        background-image: url("../image/lock.png");
+        background-repeat: no-repeat;
+        background-position: 15px 8px;
+        height: 100%;
+        .w(55);
+        background-color: rgba(0,0,0,.4);
+      }
+      input{
+        outline: none;
+        border: none;
+        vertical-align: top;
+        height: 95%;
+        .w(215);
+        .pl(30);
+        font-size: 14px;
+        color: @defaultColor;
+        background-color: rgba(0,0,0,0.3);
+        &::-webkit-input-placeholder{
+          color: @defaultColor;
+        }
+        &.ng-invalid{
+          &+span{
+            position: absolute;
+            color: red;
+            right: 0;
+            height: 100%;
+            text-align: right;
+            font-size: 12px;
+            p{
+              margin:0;
+            }
+
+          }
+        }
+      }
+
+    }
+    .message-wrap{
+      .mt(40);
+      .w(300);
+      margin-left: auto;
+      margin-right: auto;
+      .message-box{
+        outline: none;
+        border: none;
+        .w(140);
+        .h(40);
+        .pl(30);
+        .fs(14);
+        color: @defaultColor;
+        background-color: rgba(0,0,0,0.3);
+        &::-webkit-input-placeholder{
+          color: @defaultColor;
+        }
+      }
+      .message{
+        .fs(14);
+        color: @anotherHeadBarBgColor;
+        border: 1px solid @anotherHeadBarBgColor;
+        padding: 5px;
+        margin-top: 5px;
+        &.disable{
+          color: #ccc;
+          border: 1px solid #ccc;
+        }
+      }
+    }
+
+    button{
+      .w(300);
+      .h(35);
+      border:none;
+      outline: none;
+      font-weight: bold;
+      &.login-btn{
+        margin-top: 60px;
+        background-color: @anotherHeadBarBgColor;
+        color: @defaultColor;
+      }
+      &.register-btn{
+        margin-top: 20px;
+        background-color: rgba(51,151,228,0.3);
+        border:1px solid @anotherHeadBarBgColor;
+        color: @anotherHeadBarBgColor;
+      }
+    }
+  }
+}

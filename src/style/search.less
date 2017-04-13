@@ -1,0 +1,39 @@
+.search-bar{
+  background-color: @anotherHeadBarBgColor;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  .h(40);
+  .lh(40);
+  z-index: 30;
+  display: flex;
+  img{
+    transform:scale(0.6);
+  }
+  input{
+    border-radius: 80px;
+    background-color: @bodyBgColor;
+    border:none;
+    outline: none;
+    .pl(20);
+    .h(25);
+    margin-top: 7px;
+  }
+   button {
+     flex: 1;
+     background-color: @anotherHeadBarBgColor;
+     border: none;
+     color: @defaultColor;
+     &:first-child {
+
+     }
+     &:last-child {
+
+     }
+   }
+}
+
+.search-list{
+  .mt(80);
+}
